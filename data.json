@@ -26,5 +26,23 @@
        "institute":"V.P.Siddhartha Public School",
        "data":["2014","78%"]
      }
+   ],
+ "skills":[
+     {
+       "title":"Programming Language",
+       "info":["C","C++","Python","Java","Ruby","R"]
+     },
+     {
+       "title":"Databases",
+       "info":["Oracle","mySql","Sql"]
+     },
+     {
+       "title":"Operating Systems",
+       "info":["Windows","MAC","Unix","kaliLinux"]
+     },
+     {
+       "title":"Web Technologies",
+       "info":["HTML","CSS","XML","JavaSript"]
+     }
    ]
  }
