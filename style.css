@@ -3,14 +3,23 @@
   flex-direction: row;
   border:2px solid #ddd;
 }
+table{
+  width:90%;
+}
+td{
+  padding:1%
+}
+tr:nth-child(even){
+  background: lightgrey;
+}
 p{
-  color:#fff;
+  color:#000;
 }
 h3{
-  color:#fff;
+  color:red;
 }
 h2{
-  color: #fff;
+  color: red;
 }
 .childone{
   width:30%;
@@ -23,7 +32,7 @@ h2{
 .childtwo{
   width:70%;
   border:2px solid red;
-  background-color: blue;
+  background-color: lightgreen;
   padding:2%;
   margin:2%;
   border-radius: 10%
@@ -38,7 +47,7 @@ border-radius:50%;
 box-shadow: 3px 6px 5px red;
 }
 
-@media only screen and (min-width:769px) and (max-width:1024px){
+@media only screen and (min-width:769px) and (max-width:980px){
   .parent{
     display:flex;
     flex-direction: column;
