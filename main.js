@@ -33,6 +33,7 @@ newFile.then(data=>{
   console.log(data);
   career(data.career);
   education(data.education);
+  skills(data.skills);
 })
 
 var childTwo=document.querySelector(".childtwo");
@@ -65,3 +66,20 @@ function education(edu){
     
   }
 }
+
+function skills(skillInfo){
+  var careerHeading=document.createElement("h2");
+  careerHeading.textContent="Technical Skills";
+  childTwo.appendChild(careerHeading);
+  var hr=document.createElement("hr");
+  careerHeading.appendChild(hr);
+  var skillTable=document.createElement("table");
+  skillTable.border="1";
+  childTwo.appendChild(skillTable);
+  var tableData="";
+  for(var i=0; i<skillInfo.length; i++){
+    tableData+="<tr><td>"+skillInfo[i].title+"</td><td>"+skillInfo[i].info+"</td></tr>";
+   }
+  skillTable.innerHTML=tableData;
+ }
+
