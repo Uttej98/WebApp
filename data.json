@@ -1,0 +1,30 @@
+{
+ "details":{
+  "name": "Uttej",
+  "image":"k.jpg",
+  "phoneno":"8500154572",
+  "email":"uttej3@gmail.com",
+  "address":"PVP College"
+},
+
+   "career":{
+     "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization."
+   },
+   "education":[
+     {
+       "degree":"B.Tech",
+       "institute":"PVPSIT",
+       "data":["2015-19]","80%"]
+     },
+     {
+       "degree":"Intermediate",
+       "institute":"P.B.Siddhartha Junior College",
+       "data":["2014-16","80%"]
+     },
+     {
+       "degree":"S.S.C",
+       "institute":"V.P.Siddhartha Public School",
+       "data":["2014","78%"]
+     }
+   ]
+ }
